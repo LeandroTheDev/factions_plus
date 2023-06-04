@@ -22,7 +22,7 @@ Factions = {
     type = "ITEM",
     target = "Base.FacMoney",
     price = 1
-  },
+  }
 }
 ```
 
