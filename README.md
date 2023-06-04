@@ -26,6 +26,10 @@ Factions = {
 }
 ```
 
+Dependencies Mods
+
+![image](https://github.com/LeandroTheDev/factions_plus/assets/106118473/b7d6b793-212d-4987-890c-5033dd813338)
+
 Can i change something and upload in workshop?
 
 Yes but set the visibility to hidden
