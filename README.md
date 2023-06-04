@@ -10,6 +10,22 @@ Features:
 - Key system, can create a key if you are the owner of house
 - Pills heal 10% porcentage of life
 
+How to add the Fac Money in the Server Shop?
+
+Add this code to the Zomboid/Lua/ServerPointsListings.ini
+
+Remember if this is not the last section of Server Points you need to add a comma in last key "},"
+
+```
+Factions = {
+  {
+    type = "ITEM",
+    target = "Base.FacMoney",
+    price = 1
+  },
+}
+```
+
 Can i change something and upload in workshop?
 
 Yes but set the visibility to hidden
