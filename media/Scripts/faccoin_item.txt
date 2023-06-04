@@ -1,0 +1,27 @@
+module Base
+{
+        item FacMoney
+	{
+      DisplayCategory = Junk,
+      Weight	=	0.0,
+      Type	=	Normal,
+      DisplayName	=	Moeda de Troca,
+      Icon	=	FacMoney,
+      WorldStaticModel = Money,
+	}
+
+	recipe Retornar Moeda
+        {
+      FacMoney,
+      
+      CanBeDoneFromFloor:true,
+      Time:10,
+      Result:Money=1,
+      RemoveResultItem:true,
+      Sound:Hammering,
+      AnimNode:RipSheets,
+      Category:General,
+      OnGiveXP:GiveMoney,
+        }
+
+}

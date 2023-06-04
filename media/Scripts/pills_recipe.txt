@@ -1,0 +1,18 @@
+module Base
+{
+    item PillsVitamins
+	{
+	    DisplayCategory = FirstAid,
+        FatigueChange	=	-10,
+		Weight	=	0.2,
+        UseDelta	=	0.1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Vitamins,
+		Icon	=	Vitamins,
+		Tooltip = Tooltip_Vitamins,
+		StaticModel = PillBottle,
+		WorldStaticModel = Vitamins_Ground,
+		Medical = TRUE,
+	}
+}

@@ -1,0 +1,100 @@
+module farming
+{
+	imports
+	{
+		Base
+	}
+
+  recipe Vender Cenoura
+	{
+		Carrots=20,
+
+		CanBeDoneFromFloor:true,
+      	Time:500,
+      	Result:Money=1,
+      	RemoveResultItem:true,
+      	Sound:Hammering,
+      	AnimNode:RipSheets,
+      	Category:General,
+      	OnGiveXP:GiveCarrot,
+	}
+  recipe Vender Batata
+	{
+		Potato=50,
+
+		CanBeDoneFromFloor:true,
+      	Time:500,
+      	Result:Money=1,
+      	RemoveResultItem:true,
+      	Sound:Hammering,
+      	AnimNode:RipSheets,
+      	Category:General,
+      	OnGiveXP:GivePotato,
+	}
+  recipe Vender Morango
+	{
+		Strewberrie=25,
+
+		CanBeDoneFromFloor:true,
+      	Time:500,
+      	Result:Money=1,
+      	RemoveResultItem:true,
+      	Sound:Hammering,
+      	AnimNode:RipSheets,
+      	Category:General,
+      	OnGiveXP:GiveStrewberrie,
+	}
+  recipe Vender Rabanete
+	{
+		RedRadish=60,
+
+		CanBeDoneFromFloor:true,
+      	Time:500,
+      	Result:Money=1,
+      	RemoveResultItem:true,
+      	Sound:Hammering,
+      	AnimNode:RipSheets,
+      	Category:General,
+      	OnGiveXP:GiveRedRadish,
+	}
+  recipe Vender Repolho
+	{
+		Cabbage=25,
+
+		CanBeDoneFromFloor:true,
+      	Time:500,
+      	Result:Money=1,
+      	RemoveResultItem:true,
+      	Sound:Hammering,
+      	AnimNode:RipSheets,
+      	Category:General,
+      	OnGiveXP:GiveCabbage,
+	}
+   recipe Vender Tomate
+	{
+		Tomato=60,
+
+		CanBeDoneFromFloor:true,
+      	Time:500,
+      	Result:Money=1,
+      	RemoveResultItem:true,
+      	Sound:Hammering,
+      	AnimNode:RipSheets,
+      	Category:General,
+      	OnGiveXP:GiveTomato,
+	}
+   recipe Vender Brocolis
+	{
+		Tomato=35,
+
+		CanBeDoneFromFloor:true,
+      	Time:500,
+      	Result:Money=1,
+      	RemoveResultItem:true,
+      	Sound:Hammering,
+      	AnimNode:RipSheets,
+      	Category:General,
+      	OnGiveXP:GiveBroccoli,
+	}
+
+}

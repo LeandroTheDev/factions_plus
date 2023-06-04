@@ -1,0 +1,28 @@
+module Base
+{
+        recipe Fazer Linha
+	{
+      SheetRope/RippedSheets/DenimStrips=20,
+      keep Scissors,	   
+
+      CanBeDoneFromFloor:true,
+      Result:Thread=1,
+      Sound:ClothesRipping,
+      Time:100.0,
+      AnimNode:RipSheets,
+      Category:Tailoring,
+	}
+
+        recipe Fazer Arame Farpado
+        {
+      Nails=50,
+      Wire,
+      
+      CanBeDoneFromFloor:true,
+      Result:BarbedWire=1,
+      Time:120,
+      Sound:Hammering,
+      AnimNode:RipSheets,
+      Category:Carpentry,
+        }
+}
